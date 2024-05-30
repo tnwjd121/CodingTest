@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -51,7 +52,8 @@ class Country{
 		this.num = num;
 		this.gold = gold;
 		this.silver = silver;
-		this.rank = 0;
+		this.bronze = bronze;
+		this.rank = 1;
 	}
 
 	@Override
